@@ -6,13 +6,13 @@
 #    By: mgill <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/02/28 17:18:01 by mgill             #+#    #+#              #
-#    Updated: 2018/03/21 20:18:22 by mgill            ###   ########.fr        #
+#    Updated: 2018/03/21 21:37:47 by mgill            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 
-SRCS = 	ft_bzero.c ft_isascii.c ft_memalloc.c ft_memset.c ft_putchar_fd.c \
+SRCS = ft_bzero.c ft_isascii.c ft_memalloc.c ft_memset.c ft_putchar_fd.c \
 		  ft_putchar.c ft_putendl.c ft_putendl_fd.c ft_putstr_fd.c \
 		  ft_putstr.c ft_strclr.c ft_strequ.c ft_strlen.c ft_strnequ.c \
 		  ft_memcpy.c ft_memccpy.c ft_memmove.c ft_memchr.c ft_memcmp.c \

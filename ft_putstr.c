@@ -14,8 +14,14 @@
 
 void	ft_putstr(char const *s)
 {
-	while (*s)
+	int i;
+
+	i = 0;
+	if (!s)
+		return ;
+	while (s[i])
 	{
-		ft_putchar(*s++);
+		ft_putchar(s[i]);
+		i++;
 	}
 }
